@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/zh/updates.xml</id><title>InnCad Plus 与 InCad — 更新</title>
+<link href="https://inncad.com/zh/"/><link rel="self" href="https://inncad.com/zh/updates.xml"/>
+<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad</name></author>
+<entry><id>https://inncad.com/zh/#update-incad-0.11.1</id>
+<title>InCad 0.11.1: Work Axis 与选点修复</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
+<content type="html">&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder 在部分圆柱面或圆锥面上取曲面自身的轴（以前会横穿零件）。&lt;/li&gt;&lt;li&gt;工作特征的每个 Point 字段都会高亮零件上的标记点；选点时视图可以旋转。&lt;/li&gt;&lt;li&gt;Hide / Show（包括 Show All Origin）不再重建整个零件：带浮雕文字的零件不再卡顿。&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/zh/#update-plus-0.10.1</id>
+<title>InnCad Plus 0.10.1: Work Axis 与选点修复</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1"/>
+<content type="html">&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder 在部分圆柱面或圆锥面上取曲面自身的轴（以前会横穿零件）。&lt;/li&gt;&lt;li&gt;工作特征的每个 Point 字段都会高亮零件上的标记点；选点时视图可以旋转。&lt;/li&gt;&lt;li&gt;Hide / Show（包括 Show All Origin）不再重建整个零件：带浮雕文字的零件不再卡顿。&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/zh/#update-incad-0.11.0</id>
+<title>InCad 0.11.0: FreeCAD 插件加入直齿轮和蜗轮蜗杆</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.0"/>
+<content type="html">&lt;h4&gt;新增&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Spur Gears：一个对话框生成一对啮合齿轮，无需草图；每个数值都是参数。&lt;/li&gt;&lt;li&gt;Worm Gear：蜗杆和蜗轮同样简单。&lt;/li&gt;&lt;li&gt;Make Assembly 让每个齿轮绕自己的轴转动：转动一个，啮合的齿轮按传动比一起转。&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Section 现在完整显示齿轮和蜗杆的剖面，并剖切零件中所有可见实体。&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/zh/#update-plus-0.10.0</id>
+<title>InnCad Plus 0.10.0: 装配中的 Hide / Show、装配文件夹、外部文件可编辑</title>
+<updated>2026-10-23T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.0"/>
+<content type="html">&lt;h4&gt;新增&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;装配保存到同名文件夹，所有零件一并复制进去。&lt;/li&gt;&lt;li&gt;实体、装配零件、平面和草图都可 Hide、Show 和 Show All。&lt;/li&gt;&lt;li&gt;在 FreeCAD 中、用脚本或从 STEP 生成的文件打开后即可使用 InnCad 全部工具。&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;右键点击装配零件不再打开零件自身的文件；Hide 在装配中生效。&lt;/li&gt;&lt;li&gt;打开很多文件时，标签栏可以滚动，长文件名会被缩短。&lt;/li&gt;&lt;/ul&gt;</content></entry>
+</feed>

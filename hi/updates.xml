@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/hi/updates.xml</id><title>InnCad Plus और InCad — अपडेट</title>
+<link href="https://inncad.com/hi/"/><link rel="self" href="https://inncad.com/hi/updates.xml"/>
+<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad</name></author>
+<entry><id>https://inncad.com/hi/#update-incad-0.11.1</id>
+<title>InCad 0.11.1: Work Axis और बिंदु चुनने के सुधार</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
+<content type="html">&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder आंशिक सिलिंडर या शंकु पर अब सतह की अपनी धुरी है (पहले पुर्ज़े के आर-पार जाती थी)।&lt;/li&gt;&lt;li&gt;वर्क फ़ीचर का हर Point फ़ील्ड पुर्ज़े के चिह्नित बिंदु दिखाता है; बिंदु चुनते समय व्यू घूमता है।&lt;/li&gt;&lt;li&gt;Hide / Show (Show All Origin भी) अब पूरा पुर्ज़ा दोबारा नहीं बनाता: उभरे टेक्स्ट वाले पुर्ज़ों पर देरी नहीं।&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/hi/#update-plus-0.10.1</id>
+<title>InnCad Plus 0.10.1: Work Axis और बिंदु चुनने के सुधार</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1"/>
+<content type="html">&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder आंशिक सिलिंडर या शंकु पर अब सतह की अपनी धुरी है (पहले पुर्ज़े के आर-पार जाती थी)।&lt;/li&gt;&lt;li&gt;वर्क फ़ीचर का हर Point फ़ील्ड पुर्ज़े के चिह्नित बिंदु दिखाता है; बिंदु चुनते समय व्यू घूमता है।&lt;/li&gt;&lt;li&gt;Hide / Show (Show All Origin भी) अब पूरा पुर्ज़ा दोबारा नहीं बनाता: उभरे टेक्स्ट वाले पुर्ज़ों पर देरी नहीं।&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/hi/#update-incad-0.11.0</id>
+<title>InCad 0.11.0: FreeCAD ऐडऑन में स्पर गियर और वर्म ड्राइव</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.0"/>
+<content type="html">&lt;h4&gt;जोड़ा गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Spur Gears: एक ही डायलॉग से आपस में जुड़े गियर की जोड़ी, बिना स्केच; हर संख्या एक पैरामीटर है।&lt;/li&gt;&lt;li&gt;Worm Gear: वर्म और उसका पहिया भी इसी तरह।&lt;/li&gt;&lt;li&gt;Make Assembly हर गियर को उसकी अपनी धुरी पर रखता है: एक घुमाइए, जुड़े गियर अनुपात के अनुसार साथ घूमते हैं।&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Section अब गियर और वर्म का पूरा कट दिखाता है और पार्ट के हर दिखने वाले Solid को काटता है।&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/hi/#update-plus-0.10.0</id>
+<title>InnCad Plus 0.10.0: असेंबली में Hide / Show, असेंबली फ़ोल्डर, बाहरी फ़ाइलें संपादन योग्य</title>
+<updated>2026-10-23T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.0"/>
+<content type="html">&lt;h4&gt;जोड़ा गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;असेंबली अपने नाम के फ़ोल्डर में सेव होती है, सभी पार्ट वहीं कॉपी होते हैं।&lt;/li&gt;&lt;li&gt;Solid, असेंबली पार्ट, प्लेन और स्केच के लिए Hide, Show और Show All।&lt;/li&gt;&lt;li&gt;FreeCAD, स्क्रिप्ट या STEP से बनी फ़ाइलें InnCad के सभी टूल के साथ खुलती हैं।&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;असेंबली पार्ट पर राइट-क्लिक अब पार्ट की अपनी फ़ाइल नहीं खोलता; Hide असेंबली में काम करता है।&lt;/li&gt;&lt;li&gt;कई फ़ाइलें खुली हों तो टैब बार स्क्रॉल होता है, लंबे नाम छोटे दिखते हैं।&lt;/li&gt;&lt;/ul&gt;</content></entry>
+</feed>

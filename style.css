@@ -44,7 +44,7 @@ header.top .wrap { display: flex; align-items: center; gap: 34px; height: 66px; 
 .brand strong { display: block; font-size: 21px; line-height: 1.05; font-weight: 700; letter-spacing: -0.01em; }
 .brand strong span { color: var(--orange); }
 .brand small { display: block; font-size: 9.5px; letter-spacing: 0.22em; color: var(--muted); text-transform: uppercase; margin-top: 3px; }
-nav.links { display: flex; gap: 26px; }
+nav.links { display: flex; gap: 22px; }
 nav.links a { color: #c4cfdd; font-size: 15px; white-space: nowrap; }
 nav.links a:hover { color: #fff; text-decoration: none; }
 .right { margin-left: auto; display: flex; align-items: center; gap: 14px; }
@@ -254,6 +254,30 @@ ul.ticks li { position: relative; padding-left: 26px; color: #d0d9e4; }
 ul.ticks li::before { content: ""; position: absolute; left: 1px; top: 0.45em; width: 14px; height: 14px; border-radius: 50%;
   background: rgba(26, 140, 255, 0.16) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M4 7.2l2 2 4-4.4' fill='none' stroke='%234aa6ff' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/14px no-repeat; }
 
+/* updates: the bar under the header and the cards */
+.newsbar { background: linear-gradient(90deg, rgba(26, 140, 255, 0.14), rgba(240, 138, 36, 0.12)); border-bottom: 1px solid var(--line); }
+.newsbar a { display: flex; align-items: center; gap: 4px 12px; flex-wrap: wrap; padding: 9px 0; color: #d6dfea; font-size: 14.5px; }
+.newsbar a:hover { text-decoration: none; color: #fff; }
+.newsbar .tag-new { margin: 0; vertical-align: 0; }
+.newsbar .what b { color: #fff; }
+.newsbar .go { color: var(--blue2); white-space: nowrap; margin-left: auto; }
+.upd-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.upd { padding: 22px 24px; display: flex; flex-direction: column; }
+.upd-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+.upd-head b { color: #fff; font-size: 16px; }
+.prod { font-size: 12px; font-weight: 750; letter-spacing: 0.06em; text-transform: uppercase; color: #fff; padding: 3px 10px; border-radius: 999px; }
+.prod.plus { background: linear-gradient(90deg, var(--blue), var(--orange)); }
+.prod.incad { background: linear-gradient(90deg, var(--fc-red), var(--fc-blue)); }
+.upd h3 { margin-top: 12px; }
+.upd h4 { margin: 18px 0 0; font-size: 12.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.upd h4.fixed { color: #9fd8b0; }
+.upd ul.ticks { margin-top: 10px; gap: 8px; font-size: 15.5px; }
+.upd .more { margin-top: auto; padding-top: 18px; font-size: 14px; }
+details.older { margin-top: 18px; }
+details.older summary { cursor: pointer; color: var(--blue2); margin-bottom: 18px; }
+.follow { display: flex; gap: 10px; align-items: flex-start; margin-top: 24px; color: var(--muted); font-size: 15px; }
+.follow svg.i { color: var(--orange); }
+
 .cards3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .card { overflow: hidden; display: flex; flex-direction: column; }
 .card .shot { border: 0; border-radius: 0; aspect-ratio: 16 / 10; border-bottom: 1px solid var(--line); }
@@ -344,8 +368,10 @@ dialog#lb img { max-width: 96vw; max-height: 94vh; object-fit: contain; border-r
 :lang(hi) body, :lang(hi) .hero h1 { line-height: 1.6; }
 :lang(hi) .hero h1 { line-height: 1.25; }
 
-@media (max-width: 1180px) {
+@media (max-width: 1320px) {
   nav.links { display: none; }
+}
+@media (max-width: 1180px) {
   .feats { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 960px) {
@@ -376,6 +402,9 @@ dialog#lb img { max-width: 96vw; max-height: 94vh; object-fit: contain; border-r
   .oss { grid-template-columns: 1fr; }
   .boxhead, .oss, .req .foot, .tabs, .pf, .dlbox .links, .guides, .faq, .addon-body { padding-left: 16px; padding-right: 16px; }
   .addon-body { grid-template-columns: 1fr; gap: 18px; }
+  .upd-grid { grid-template-columns: minmax(0, 1fr); }
+  .upd { padding: 18px 16px; }
+  .newsbar .go { margin-left: 0; }
 }
 @media (max-width: 560px) {
   .feats, .stl { grid-template-columns: 1fr; }
