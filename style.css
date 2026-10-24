@@ -273,8 +273,6 @@ ul.ticks li::before { content: ""; position: absolute; left: 1px; top: 0.45em; w
 .upd h4.fixed { color: #9fd8b0; }
 .upd ul.ticks { margin-top: 10px; gap: 8px; font-size: 15.5px; }
 .upd .more { margin-top: auto; padding-top: 18px; font-size: 14px; }
-details.older { margin-top: 18px; }
-details.older summary { cursor: pointer; color: var(--blue2); margin-bottom: 18px; }
 .follow { display: flex; gap: 10px; align-items: flex-start; margin-top: 24px; color: var(--muted); font-size: 15px; }
 .follow svg.i { color: var(--orange); }
 

@@ -10,12 +10,4 @@
 <title>InnCad Plus 0.10.1: Исправления Work Axis и выбора точек</title>
 <updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1"/>
 <content type="html">&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder на части цилиндра или на конусе — собственная ось поверхности (шла поперёк детали).&lt;/li&gt;&lt;li&gt;Все поля Point рабочих элементов подсвечивают отмеченные точки детали; вид вращается, пока выбираются точки.&lt;/li&gt;&lt;li&gt;Hide / Show (и Show All Origin) больше не перестраивает всю деталь: нет задержек на деталях с текстом Emboss.&lt;/li&gt;&lt;/ul&gt;</content></entry>
-<entry><id>https://inncad.com/ru/#update-incad-0.11.0</id>
-<title>InCad 0.11.0: Шестерни и червячные передачи в аддоне для FreeCAD</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.0"/>
-<content type="html">&lt;h4&gt;Добавлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Spur Gears: пара шестерён в зацеплении из одного диалога, без эскиза; каждое число — параметр.&lt;/li&gt;&lt;li&gt;Worm Gear: червяк и его колесо — так же.&lt;/li&gt;&lt;li&gt;Make Assembly ставит каждую шестерню на свою ось: поверните одну — сцепленные повернутся с ней по передаточному числу.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Section показывает разрез шестерён и червяков целиком и режет все видимые тела детали.&lt;/li&gt;&lt;/ul&gt;</content></entry>
-<entry><id>https://inncad.com/ru/#update-plus-0.10.0</id>
-<title>InnCad Plus 0.10.0: Hide / Show в сборках, сборка в своей папке, чужие файлы редактируются</title>
-<updated>2026-10-23T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.0"/>
-<content type="html">&lt;h4&gt;Добавлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Сборка сохраняется в папку со своим именем, все детали копируются туда же.&lt;/li&gt;&lt;li&gt;Hide, Show и Show All для тел, деталей сборки, плоскостей и эскизов.&lt;/li&gt;&lt;li&gt;Файлы из FreeCAD, из скрипта или из STEP открываются со всеми инструментами InnCad Plus.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Правый щелчок по детали сборки больше не открывает файл детали; Hide действует в сборке.&lt;/li&gt;&lt;li&gt;Много открытых файлов: полоса вкладок прокручивается, длинные имена сокращаются.&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>
