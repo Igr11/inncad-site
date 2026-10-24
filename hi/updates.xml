@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/hi/updates.xml</id><title>InnCad Plus और InCad — अपडेट</title>
 <link href="https://inncad.com/hi/"/><link rel="self" href="https://inncad.com/hi/updates.xml"/>
-<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad</name></author>
+<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
 <entry><id>https://inncad.com/hi/#update-incad-0.11.1</id>
 <title>InCad 0.11.1: Work Axis और बिंदु चुनने के सुधार</title>
 <updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
@@ -17,5 +17,5 @@
 <entry><id>https://inncad.com/hi/#update-plus-0.10.0</id>
 <title>InnCad Plus 0.10.0: असेंबली में Hide / Show, असेंबली फ़ोल्डर, बाहरी फ़ाइलें संपादन योग्य</title>
 <updated>2026-10-23T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.0"/>
-<content type="html">&lt;h4&gt;जोड़ा गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;असेंबली अपने नाम के फ़ोल्डर में सेव होती है, सभी पार्ट वहीं कॉपी होते हैं।&lt;/li&gt;&lt;li&gt;Solid, असेंबली पार्ट, प्लेन और स्केच के लिए Hide, Show और Show All।&lt;/li&gt;&lt;li&gt;FreeCAD, स्क्रिप्ट या STEP से बनी फ़ाइलें InnCad के सभी टूल के साथ खुलती हैं।&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;असेंबली पार्ट पर राइट-क्लिक अब पार्ट की अपनी फ़ाइल नहीं खोलता; Hide असेंबली में काम करता है।&lt;/li&gt;&lt;li&gt;कई फ़ाइलें खुली हों तो टैब बार स्क्रॉल होता है, लंबे नाम छोटे दिखते हैं।&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<content type="html">&lt;h4&gt;जोड़ा गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;असेंबली अपने नाम के फ़ोल्डर में सेव होती है, सभी पार्ट वहीं कॉपी होते हैं।&lt;/li&gt;&lt;li&gt;Solid, असेंबली पार्ट, प्लेन और स्केच के लिए Hide, Show और Show All।&lt;/li&gt;&lt;li&gt;FreeCAD, स्क्रिप्ट या STEP से बनी फ़ाइलें InnCad Plus के सभी टूल के साथ खुलती हैं।&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;असेंबली पार्ट पर राइट-क्लिक अब पार्ट की अपनी फ़ाइल नहीं खोलता; Hide असेंबली में काम करता है।&lt;/li&gt;&lt;li&gt;कई फ़ाइलें खुली हों तो टैब बार स्क्रॉल होता है, लंबे नाम छोटे दिखते हैं।&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>

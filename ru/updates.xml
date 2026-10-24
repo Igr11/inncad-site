@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/ru/updates.xml</id><title>InnCad Plus и InCad — обновления</title>
 <link href="https://inncad.com/ru/"/><link rel="self" href="https://inncad.com/ru/updates.xml"/>
-<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad</name></author>
+<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
 <entry><id>https://inncad.com/ru/#update-incad-0.11.1</id>
 <title>InCad 0.11.1: Исправления Work Axis и выбора точек</title>
 <updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
@@ -17,5 +17,5 @@
 <entry><id>https://inncad.com/ru/#update-plus-0.10.0</id>
 <title>InnCad Plus 0.10.0: Hide / Show в сборках, сборка в своей папке, чужие файлы редактируются</title>
 <updated>2026-10-23T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.0"/>
-<content type="html">&lt;h4&gt;Добавлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Сборка сохраняется в папку со своим именем, все детали копируются туда же.&lt;/li&gt;&lt;li&gt;Hide, Show и Show All для тел, деталей сборки, плоскостей и эскизов.&lt;/li&gt;&lt;li&gt;Файлы из FreeCAD, из скрипта или из STEP открываются со всеми инструментами InnCad.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Правый щелчок по детали сборки больше не открывает файл детали; Hide действует в сборке.&lt;/li&gt;&lt;li&gt;Много открытых файлов: полоса вкладок прокручивается, длинные имена сокращаются.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<content type="html">&lt;h4&gt;Добавлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Сборка сохраняется в папку со своим именем, все детали копируются туда же.&lt;/li&gt;&lt;li&gt;Hide, Show и Show All для тел, деталей сборки, плоскостей и эскизов.&lt;/li&gt;&lt;li&gt;Файлы из FreeCAD, из скрипта или из STEP открываются со всеми инструментами InnCad Plus.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Правый щелчок по детали сборки больше не открывает файл детали; Hide действует в сборке.&lt;/li&gt;&lt;li&gt;Много открытых файлов: полоса вкладок прокручивается, длинные имена сокращаются.&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>

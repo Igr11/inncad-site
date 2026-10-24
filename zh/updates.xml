@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/zh/updates.xml</id><title>InnCad Plus 与 InCad — 更新</title>
 <link href="https://inncad.com/zh/"/><link rel="self" href="https://inncad.com/zh/updates.xml"/>
-<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad</name></author>
+<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
 <entry><id>https://inncad.com/zh/#update-incad-0.11.1</id>
 <title>InCad 0.11.1: Work Axis 与选点修复</title>
 <updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
@@ -17,5 +17,5 @@
 <entry><id>https://inncad.com/zh/#update-plus-0.10.0</id>
 <title>InnCad Plus 0.10.0: 装配中的 Hide / Show、装配文件夹、外部文件可编辑</title>
 <updated>2026-10-23T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.0"/>
-<content type="html">&lt;h4&gt;新增&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;装配保存到同名文件夹，所有零件一并复制进去。&lt;/li&gt;&lt;li&gt;实体、装配零件、平面和草图都可 Hide、Show 和 Show All。&lt;/li&gt;&lt;li&gt;在 FreeCAD 中、用脚本或从 STEP 生成的文件打开后即可使用 InnCad 全部工具。&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;右键点击装配零件不再打开零件自身的文件；Hide 在装配中生效。&lt;/li&gt;&lt;li&gt;打开很多文件时，标签栏可以滚动，长文件名会被缩短。&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<content type="html">&lt;h4&gt;新增&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;装配保存到同名文件夹，所有零件一并复制进去。&lt;/li&gt;&lt;li&gt;实体、装配零件、平面和草图都可 Hide、Show 和 Show All。&lt;/li&gt;&lt;li&gt;在 FreeCAD 中、用脚本或从 STEP 生成的文件打开后即可使用 InnCad Plus 全部工具。&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;右键点击装配零件不再打开零件自身的文件；Hide 在装配中生效。&lt;/li&gt;&lt;li&gt;打开很多文件时，标签栏可以滚动，长文件名会被缩短。&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>

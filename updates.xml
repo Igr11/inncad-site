@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/updates.xml</id><title>InnCad Plus and InCad — updates</title>
 <link href="https://inncad.com/"/><link rel="self" href="https://inncad.com/updates.xml"/>
-<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad</name></author>
+<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
 <entry><id>https://inncad.com/#update-incad-0.11.1</id>
 <title>InCad 0.11.1: Work Axis and point picking fixes</title>
 <updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
@@ -17,5 +17,5 @@
 <entry><id>https://inncad.com/#update-plus-0.10.0</id>
 <title>InnCad Plus 0.10.0: Hide / Show in assemblies, assembly folders, foreign files editable</title>
 <updated>2026-10-23T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.0"/>
-<content type="html">&lt;h4&gt;Added&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Save an assembly into a folder of its name, with every part copied there.&lt;/li&gt;&lt;li&gt;Hide, Show and Show All for solids, assembly parts, planes and sketches.&lt;/li&gt;&lt;li&gt;Files made in FreeCAD, by a script or from STEP open with every InnCad tool.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Fixed&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;A right-click on an assembly part no longer opens the part&amp;#x27;s own file; Hide acts in the assembly.&lt;/li&gt;&lt;li&gt;Many open files: the tab bar scrolls, long names are shortened.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<content type="html">&lt;h4&gt;Added&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Save an assembly into a folder of its name, with every part copied there.&lt;/li&gt;&lt;li&gt;Hide, Show and Show All for solids, assembly parts, planes and sketches.&lt;/li&gt;&lt;li&gt;Files made in FreeCAD, by a script or from STEP open with every InnCad Plus tool.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Fixed&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;A right-click on an assembly part no longer opens the part&amp;#x27;s own file; Hide acts in the assembly.&lt;/li&gt;&lt;li&gt;Many open files: the tab bar scrolls, long names are shortened.&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>

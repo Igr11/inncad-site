@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/de/updates.xml</id><title>InnCad Plus und InCad — Neuigkeiten</title>
 <link href="https://inncad.com/de/"/><link rel="self" href="https://inncad.com/de/updates.xml"/>
-<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad</name></author>
+<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
 <entry><id>https://inncad.com/de/#update-incad-0.11.1</id>
 <title>InCad 0.11.1: Korrekturen an Work Axis und Punktwahl</title>
 <updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
