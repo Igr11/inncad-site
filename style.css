@@ -190,7 +190,12 @@ figure.scheme figcaption { text-align: center; color: var(--muted); font-size: 1
 .addon-body p { color: #c0cbd9; }
 .addon-body .back { margin-top: 12px; color: var(--text); }
 .addon-body .soon-note { margin-top: 10px; color: var(--text); display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
-.addon-body .soon-note .tag-soon { margin-left: 0; margin-right: 6px; background: var(--fc-red); }
+.addon-body .new-note { margin-top: 14px; display: flex; align-items: center; gap: 14px; color: var(--text);
+  text-decoration: none; background: var(--panel2); border: 1px solid var(--line2); border-radius: var(--radius); padding: 10px; }
+.addon-body .new-note:hover { border-color: var(--blue); }
+.addon-body .new-note img { width: 132px; height: auto; border-radius: 8px; flex: none; }
+.tag-new { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #fff;
+  background: var(--orange); border-radius: 5px; padding: 1px 7px; margin-right: 8px; vertical-align: 2px; }
 .addon-body .note { color: var(--muted); font-size: 14.5px; margin-top: 10px; }
 .addon-dl { display: grid; gap: 10px; }
 .addon-dl .btn { justify-content: flex-start; }
