@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/hi/updates.xml</id><title>InnCad Plus और InCad — अपडेट</title>
 <link href="https://inncad.com/hi/"/><link rel="self" href="https://inncad.com/hi/updates.xml"/>
-<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
-<entry><id>https://inncad.com/hi/#update-incad-0.11.2</id>
-<title>InCad 0.11.2: एक साथ कई जगह छेद और थ्रेड</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.2"/>
-<content type="html">&lt;h4&gt;जोड़ा गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric: कई गोल किनारे या गोल सतहें एक साथ चुनें (Round) — हर एक के केंद्र में छेद; Face वैकल्पिक है।&lt;/li&gt;&lt;li&gt;Thread एक साथ कई सतहों पर (छेद या शाफ़्ट): हर एक पर समान सेटिंग्स वाला थ्रेड; बाद में हर एक अलग थ्रेड है।&lt;/li&gt;&lt;li&gt;Apply + हर टूल में अगला डायलॉग उन्हीं सेटिंग्स के साथ खोलता है (केवल चुनाव खाली रहता है)।&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;ऐसा फ़ीचर हटाना जिस पर दूसरे बने हैं (Fillet के किनारों पर Chamfer) अटक जाता था और कुछ नहीं होता था: अब InCad पूछता है कि उन्हें भी हटाएँ या नहीं, एक Undo कदम में; No पुर्ज़े को वैसा ही छोड़ता है।&lt;/li&gt;&lt;li&gt;दूसरे छेद में थ्रेड: उस पर क्लिक (जो पहले थ्रेड के प्रीव्यू के रूप में दिखता है) छूट जाता था।&lt;/li&gt;&lt;/ul&gt;</content></entry>
-<entry><id>https://inncad.com/hi/#update-plus-0.10.2</id>
-<title>InnCad Plus 0.10.2: एक साथ कई जगह छेद और थ्रेड</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.2"/>
-<content type="html">&lt;h4&gt;जोड़ा गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric: कई गोल किनारे या गोल सतहें एक साथ चुनें (Round) — हर एक के केंद्र में छेद; Face वैकल्पिक है।&lt;/li&gt;&lt;li&gt;Thread एक साथ कई सतहों पर (छेद या शाफ़्ट): हर एक पर समान सेटिंग्स वाला थ्रेड; बाद में हर एक अलग थ्रेड है।&lt;/li&gt;&lt;li&gt;Apply + हर टूल में अगला डायलॉग उन्हीं सेटिंग्स के साथ खोलता है (केवल चुनाव खाली रहता है)।&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;ऐसा फ़ीचर हटाना जिस पर दूसरे बने हैं (Fillet के किनारों पर Chamfer) अटक जाता था और कुछ नहीं होता था: अब InnCad पूछता है कि उन्हें भी हटाएँ या नहीं, एक Undo कदम में; No पुर्ज़े को वैसा ही छोड़ता है।&lt;/li&gt;&lt;li&gt;दूसरे छेद में थ्रेड: उस पर क्लिक (जो पहले थ्रेड के प्रीव्यू के रूप में दिखता है) छूट जाता था।&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<updated>2026-10-25T12:00:00Z</updated><author><name>InnCad Plus</name></author>
+<entry><id>https://inncad.com/hi/#update-incad-0.11.3</id>
+<title>InCad 0.11.3: Shaded बटन के बाद भी Hide Edges काम करता है</title>
+<updated>2026-10-25T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.3"/>
+<content type="html">&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Shaded बटन दबाने के बाद Appearance ▸ Hide Edges कुछ नहीं करता था: Shaded हर Solid के किनारे बनाता था, चाहे उसकी सेटिंग कुछ भी हो। अब हर Solid अपनी सेटिंग के अनुसार दिखता है, और Hide Edges किनारे छिपा देता है।&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/hi/#update-plus-0.10.3</id>
+<title>InnCad Plus 0.10.3: Shaded बटन के बाद भी Hide Edges काम करता है</title>
+<updated>2026-10-25T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.3"/>
+<content type="html">&lt;h4&gt;ठीक किया गया&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Shaded बटन दबाने के बाद Appearance ▸ Hide Edges कुछ नहीं करता था: Shaded हर Solid के किनारे बनाता था, चाहे उसकी सेटिंग कुछ भी हो। अब हर Solid अपनी सेटिंग के अनुसार दिखता है, और Hide Edges किनारे छिपा देता है।&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>

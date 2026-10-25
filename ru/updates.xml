@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/ru/updates.xml</id><title>InnCad Plus и InCad — обновления</title>
 <link href="https://inncad.com/ru/"/><link rel="self" href="https://inncad.com/ru/updates.xml"/>
-<updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
-<entry><id>https://inncad.com/ru/#update-incad-0.11.2</id>
-<title>InCad 0.11.2: Отверстия и резьбы сразу в нескольких местах</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.2"/>
-<content type="html">&lt;h4&gt;Добавлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric: можно щёлкнуть несколько круглых рёбер или круглых граней сразу (Round) — отверстие в центре каждой; Face необязательна.&lt;/li&gt;&lt;li&gt;Thread сразу на нескольких гранях (отверстия или валы): резьба на каждой с одними настройками; потом каждая — отдельная резьба.&lt;/li&gt;&lt;li&gt;Apply + открывает следующий диалог с теми же настройками (пусты только выбранные объекты), во всех инструментах.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Удаление элемента, на котором что-то построено (Chamfer на рёбрах Fillet), долго висело и ничего не делало: теперь InCad спрашивает, удалить ли и их, одним шагом Undo; «Нет» оставляет деталь как была.&lt;/li&gt;&lt;li&gt;Резьба во втором отверстии: щелчок по нему (на экране это предпросмотр первой резьбы) терялся.&lt;/li&gt;&lt;/ul&gt;</content></entry>
-<entry><id>https://inncad.com/ru/#update-plus-0.10.2</id>
-<title>InnCad Plus 0.10.2: Отверстия и резьбы сразу в нескольких местах</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.2"/>
-<content type="html">&lt;h4&gt;Добавлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric: можно щёлкнуть несколько круглых рёбер или круглых граней сразу (Round) — отверстие в центре каждой; Face необязательна.&lt;/li&gt;&lt;li&gt;Thread сразу на нескольких гранях (отверстия или валы): резьба на каждой с одними настройками; потом каждая — отдельная резьба.&lt;/li&gt;&lt;li&gt;Apply + открывает следующий диалог с теми же настройками (пусты только выбранные объекты), во всех инструментах.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Удаление элемента, на котором что-то построено (Chamfer на рёбрах Fillet), долго висело и ничего не делало: теперь InnCad спрашивает, удалить ли и их, одним шагом Undo; «Нет» оставляет деталь как была.&lt;/li&gt;&lt;li&gt;Резьба во втором отверстии: щелчок по нему (на экране это предпросмотр первой резьбы) терялся.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<updated>2026-10-25T12:00:00Z</updated><author><name>InnCad Plus</name></author>
+<entry><id>https://inncad.com/ru/#update-incad-0.11.3</id>
+<title>InCad 0.11.3: Hide Edges работает после кнопки Shaded</title>
+<updated>2026-10-25T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.3"/>
+<content type="html">&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Appearance ▸ Hide Edges ничего не делал, если до этого нажимали кнопку Shaded: Shaded рисовал рёбра у каждого тела, как бы оно ни было настроено. Теперь каждое тело показано по своей настройке, и Hide Edges прячет рёбра.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/ru/#update-plus-0.10.3</id>
+<title>InnCad Plus 0.10.3: Hide Edges работает после кнопки Shaded</title>
+<updated>2026-10-25T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.3"/>
+<content type="html">&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Appearance ▸ Hide Edges ничего не делал, если до этого нажимали кнопку Shaded: Shaded рисовал рёбра у каждого тела, как бы оно ни было настроено. Теперь каждое тело показано по своей настройке, и Hide Edges прячет рёбра.&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>

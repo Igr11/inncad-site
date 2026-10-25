@@ -315,6 +315,12 @@ ul.ticks li::before { content: ""; position: absolute; left: 1px; top: 0.45em; w
 .ba figcaption { color: var(--muted); font-size: 14px; margin-top: 8px; }
 .ba figcaption b { color: var(--orange); }
 .ba-arrow { font-size: 34px; color: var(--orange); font-weight: 700; }
+.ba-row.photo .shot { aspect-ratio: 1708 / 1336; }
+.ba-gap { visibility: hidden; }
+.ba-row.photo .shot a { display: block; height: 100%; }
+.ba-row.photo .shot img { object-position: 50% 59%; }
+.ba-row.photo .shot img[src*="leg_inncad"] { object-position: 0 0; }
+.shot video { display: block; width: 100%; height: 100%; object-fit: cover; }
 .quote { margin-top: 22px; padding: 14px 18px; border-left: 3px solid var(--blue); background: rgba(26, 140, 255, 0.07);
   border-radius: 0 10px 10px 0; font-style: italic; color: #d8e6f6; }
 .stl { margin-top: 56px; }
@@ -378,6 +384,7 @@ dialog#lb img { max-width: 96vw; max-height: 94vh; object-fit: contain; border-r
   .solo { grid-template-columns: minmax(0, 1fr); }
   .ba-row { grid-template-columns: minmax(0, 1fr); }
   .ba-arrow { transform: rotate(90deg); justify-self: center; }
+  .ba-gap { display: none; }
   .connect, .connect.two { grid-template-columns: minmax(0, 1fr); }
   .where td:first-child { white-space: normal; }
   .solo .btn { white-space: normal; justify-content: center; }
