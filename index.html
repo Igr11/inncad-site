@@ -42,7 +42,7 @@
     <a class="btn primary small" href="#download"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5v11m0 0-4.5-4.5m4.5 4.5 4.5-4.5M4.5 15.5v3a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-3"/></svg><span>Download</span></a>
   </div>
 </div></header>
-<div class="newsbar"><div class="wrap"><a href="#updates"><span class="tag-new">New</span><span class="what"><b>InCad 0.11.1</b> — Work Axis and point picking fixes · <b>InnCad Plus 0.10.1</b> — Work Axis and point picking fixes</span><span class="go">What changed →</span></a></div></div>
+<div class="newsbar"><div class="wrap"><a href="#updates"><span class="tag-new">New</span><span class="what"><b>InCad 0.11.2</b> — Holes and threads in several places at once · <b>InnCad Plus 0.10.2</b> — Holes and threads in several places at once</span><span class="go">What changed →</span></a></div></div>
 
 <main id="top">
 <div class="hero"><div class="wrap">
@@ -216,13 +216,13 @@
     <h2>What's new in InnCad Plus and InCad</h2>
     <p>The latest version of each: what was added and what was fixed. Earlier versions are on GitHub: <a href="https://github.com/Igr11/InnCadPlus-releases/releases">InnCad Plus</a>, <a href="https://github.com/Igr11/InCad/releases">InCad</a>.</p>
   </div>
-  <div class="upd-grid"><article class="box upd" id="update-incad-0.11.1">
-      <p class="upd-head"><span class="prod incad">InCad</span><b>0.11.1</b><time datetime="2026-10-24">October 24, 2026</time></p>
-      <h3>Work Axis and point picking fixes</h3><h4 class="fixed">Fixed</h4><ul class="ticks"><li>Work Axis ▸ Axis of a cylinder on part of a cylinder or on a cone is the surface&#x27;s own axis (it came out across the part).</li><li>Every Point field of the work features lights the part&#x27;s marked points; the view turns while points are picked.</li><li>Hide / Show (Show All Origin too) no longer rebuilds the whole part: no lag on parts with embossed text.</li></ul>
-      <a class="more" href="https://github.com/Igr11/InCad/releases/tag/v0.11.1">Release notes on GitHub →</a></article><article class="box upd" id="update-plus-0.10.1">
-      <p class="upd-head"><span class="prod plus">InnCad Plus</span><b>0.10.1</b><time datetime="2026-10-24">October 24, 2026</time></p>
-      <h3>Work Axis and point picking fixes</h3><h4 class="fixed">Fixed</h4><ul class="ticks"><li>Work Axis ▸ Axis of a cylinder on part of a cylinder or on a cone is the surface&#x27;s own axis (it came out across the part).</li><li>Every Point field of the work features lights the part&#x27;s marked points; the view turns while points are picked.</li><li>Hide / Show (Show All Origin too) no longer rebuilds the whole part: no lag on parts with embossed text.</li></ul>
-      <a class="more" href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1">Release notes on GitHub →</a></article></div>
+  <div class="upd-grid"><article class="box upd" id="update-incad-0.11.2">
+      <p class="upd-head"><span class="prod incad">InCad</span><b>0.11.2</b><time datetime="2026-10-24">October 24, 2026</time></p>
+      <h3>Holes and threads in several places at once</h3><h4 class="added">Added</h4><ul class="ticks"><li>Hole ▸ Concentric: click several round edges or round faces at once (Round) — a hole at the centre of each; the Face is optional.</li><li>Thread on several faces at once (holes or shafts): a thread on each with the same settings; afterwards each is a thread of its own.</li><li>Apply + opens the next dialog with the same settings (only the picks start empty), in every tool.</li></ul><h4 class="fixed">Fixed</h4><ul class="ticks"><li>Deleting a feature that others are built on (a Chamfer on a Fillet&#x27;s edges) hung, then did nothing: InCad now asks to delete those too, as one undo step; No leaves the part as it was.</li><li>Thread in a second hole: the click on it (shown as the first thread&#x27;s preview) was dropped.</li></ul>
+      <a class="more" href="https://github.com/Igr11/InCad/releases/tag/v0.11.2">Release notes on GitHub →</a></article><article class="box upd" id="update-plus-0.10.2">
+      <p class="upd-head"><span class="prod plus">InnCad Plus</span><b>0.10.2</b><time datetime="2026-10-24">October 24, 2026</time></p>
+      <h3>Holes and threads in several places at once</h3><h4 class="added">Added</h4><ul class="ticks"><li>Hole ▸ Concentric: click several round edges or round faces at once (Round) — a hole at the centre of each; the Face is optional.</li><li>Thread on several faces at once (holes or shafts): a thread on each with the same settings; afterwards each is a thread of its own.</li><li>Apply + opens the next dialog with the same settings (only the picks start empty), in every tool.</li></ul><h4 class="fixed">Fixed</h4><ul class="ticks"><li>Deleting a feature that others are built on (a Chamfer on a Fillet&#x27;s edges) hung, then did nothing: InnCad now asks to delete those too, as one undo step; No leaves the part as it was.</li><li>Thread in a second hole: the click on it (shown as the first thread&#x27;s preview) was dropped.</li></ul>
+      <a class="more" href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.2">Release notes on GitHub →</a></article></div>
   <p class="follow"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></svg><span>Hear about new versions: add the <a href="updates.xml">updates feed</a> (RSS / Atom) to any feed reader, or on GitHub click Watch ▸ Custom ▸ Releases for <a href="https://github.com/Igr11/InnCadPlus-releases">InnCad Plus</a> and <a href="https://github.com/Igr11/InCad">InCad</a>.</span></p>
 </div></section>
 

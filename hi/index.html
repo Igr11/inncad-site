@@ -42,7 +42,7 @@
     <a class="btn primary small" href="#download"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5v11m0 0-4.5-4.5m4.5 4.5 4.5-4.5M4.5 15.5v3a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-3"/></svg><span>डाउनलोड</span></a>
   </div>
 </div></header>
-<div class="newsbar"><div class="wrap"><a href="#updates"><span class="tag-new">नया</span><span class="what"><b>InCad 0.11.1</b> — Work Axis और बिंदु चुनने के सुधार · <b>InnCad Plus 0.10.1</b> — Work Axis और बिंदु चुनने के सुधार</span><span class="go">क्या बदला →</span></a></div></div>
+<div class="newsbar"><div class="wrap"><a href="#updates"><span class="tag-new">नया</span><span class="what"><b>InCad 0.11.2</b> — एक साथ कई जगह छेद और थ्रेड · <b>InnCad Plus 0.10.2</b> — एक साथ कई जगह छेद और थ्रेड</span><span class="go">क्या बदला →</span></a></div></div>
 
 <main id="top">
 <div class="hero"><div class="wrap">
@@ -216,13 +216,13 @@
     <h2>InnCad Plus और InCad में नया क्या है</h2>
     <p>हर प्रोग्राम का नवीनतम संस्करण: क्या जोड़ा गया और क्या ठीक किया गया। पुराने संस्करण GitHub पर हैं: <a href="https://github.com/Igr11/InnCadPlus-releases/releases">InnCad Plus</a>, <a href="https://github.com/Igr11/InCad/releases">InCad</a>।</p>
   </div>
-  <div class="upd-grid"><article class="box upd" id="update-incad-0.11.1">
-      <p class="upd-head"><span class="prod incad">InCad</span><b>0.11.1</b><time datetime="2026-10-24">24 अक्टूबर 2026</time></p>
-      <h3>Work Axis और बिंदु चुनने के सुधार</h3><h4 class="fixed">ठीक किया गया</h4><ul class="ticks"><li>Work Axis ▸ Axis of a cylinder आंशिक सिलिंडर या शंकु पर अब सतह की अपनी धुरी है (पहले पुर्ज़े के आर-पार जाती थी)।</li><li>वर्क फ़ीचर का हर Point फ़ील्ड पुर्ज़े के चिह्नित बिंदु दिखाता है; बिंदु चुनते समय व्यू घूमता है।</li><li>Hide / Show (Show All Origin भी) अब पूरा पुर्ज़ा दोबारा नहीं बनाता: उभरे टेक्स्ट वाले पुर्ज़ों पर देरी नहीं।</li></ul>
-      <a class="more" href="https://github.com/Igr11/InCad/releases/tag/v0.11.1">GitHub पर रिलीज़ नोट्स →</a></article><article class="box upd" id="update-plus-0.10.1">
-      <p class="upd-head"><span class="prod plus">InnCad Plus</span><b>0.10.1</b><time datetime="2026-10-24">24 अक्टूबर 2026</time></p>
-      <h3>Work Axis और बिंदु चुनने के सुधार</h3><h4 class="fixed">ठीक किया गया</h4><ul class="ticks"><li>Work Axis ▸ Axis of a cylinder आंशिक सिलिंडर या शंकु पर अब सतह की अपनी धुरी है (पहले पुर्ज़े के आर-पार जाती थी)।</li><li>वर्क फ़ीचर का हर Point फ़ील्ड पुर्ज़े के चिह्नित बिंदु दिखाता है; बिंदु चुनते समय व्यू घूमता है।</li><li>Hide / Show (Show All Origin भी) अब पूरा पुर्ज़ा दोबारा नहीं बनाता: उभरे टेक्स्ट वाले पुर्ज़ों पर देरी नहीं।</li></ul>
-      <a class="more" href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1">GitHub पर रिलीज़ नोट्स →</a></article></div>
+  <div class="upd-grid"><article class="box upd" id="update-incad-0.11.2">
+      <p class="upd-head"><span class="prod incad">InCad</span><b>0.11.2</b><time datetime="2026-10-24">24 अक्टूबर 2026</time></p>
+      <h3>एक साथ कई जगह छेद और थ्रेड</h3><h4 class="added">जोड़ा गया</h4><ul class="ticks"><li>Hole ▸ Concentric: कई गोल किनारे या गोल सतहें एक साथ चुनें (Round) — हर एक के केंद्र में छेद; Face वैकल्पिक है।</li><li>Thread एक साथ कई सतहों पर (छेद या शाफ़्ट): हर एक पर समान सेटिंग्स वाला थ्रेड; बाद में हर एक अलग थ्रेड है।</li><li>Apply + हर टूल में अगला डायलॉग उन्हीं सेटिंग्स के साथ खोलता है (केवल चुनाव खाली रहता है)।</li></ul><h4 class="fixed">ठीक किया गया</h4><ul class="ticks"><li>ऐसा फ़ीचर हटाना जिस पर दूसरे बने हैं (Fillet के किनारों पर Chamfer) अटक जाता था और कुछ नहीं होता था: अब InCad पूछता है कि उन्हें भी हटाएँ या नहीं, एक Undo कदम में; No पुर्ज़े को वैसा ही छोड़ता है।</li><li>दूसरे छेद में थ्रेड: उस पर क्लिक (जो पहले थ्रेड के प्रीव्यू के रूप में दिखता है) छूट जाता था।</li></ul>
+      <a class="more" href="https://github.com/Igr11/InCad/releases/tag/v0.11.2">GitHub पर रिलीज़ नोट्स →</a></article><article class="box upd" id="update-plus-0.10.2">
+      <p class="upd-head"><span class="prod plus">InnCad Plus</span><b>0.10.2</b><time datetime="2026-10-24">24 अक्टूबर 2026</time></p>
+      <h3>एक साथ कई जगह छेद और थ्रेड</h3><h4 class="added">जोड़ा गया</h4><ul class="ticks"><li>Hole ▸ Concentric: कई गोल किनारे या गोल सतहें एक साथ चुनें (Round) — हर एक के केंद्र में छेद; Face वैकल्पिक है।</li><li>Thread एक साथ कई सतहों पर (छेद या शाफ़्ट): हर एक पर समान सेटिंग्स वाला थ्रेड; बाद में हर एक अलग थ्रेड है।</li><li>Apply + हर टूल में अगला डायलॉग उन्हीं सेटिंग्स के साथ खोलता है (केवल चुनाव खाली रहता है)।</li></ul><h4 class="fixed">ठीक किया गया</h4><ul class="ticks"><li>ऐसा फ़ीचर हटाना जिस पर दूसरे बने हैं (Fillet के किनारों पर Chamfer) अटक जाता था और कुछ नहीं होता था: अब InnCad पूछता है कि उन्हें भी हटाएँ या नहीं, एक Undo कदम में; No पुर्ज़े को वैसा ही छोड़ता है।</li><li>दूसरे छेद में थ्रेड: उस पर क्लिक (जो पहले थ्रेड के प्रीव्यू के रूप में दिखता है) छूट जाता था।</li></ul>
+      <a class="more" href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.2">GitHub पर रिलीज़ नोट्स →</a></article></div>
   <p class="follow"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></svg><span>नए संस्करणों की खबर पाएँ: किसी भी फ़ीड रीडर में <a href="updates.xml">अपडेट फ़ीड</a> (RSS / Atom) जोड़ें, या GitHub पर <a href="https://github.com/Igr11/InnCadPlus-releases">InnCad Plus</a> और <a href="https://github.com/Igr11/InCad">InCad</a> के लिए Watch ▸ Custom ▸ Releases दबाएँ।</span></p>
 </div></section>
 

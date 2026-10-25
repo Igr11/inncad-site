@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/updates.xml</id><title>InnCad Plus and InCad — updates</title>
 <link href="https://inncad.com/"/><link rel="self" href="https://inncad.com/updates.xml"/>
 <updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
-<entry><id>https://inncad.com/#update-incad-0.11.1</id>
-<title>InCad 0.11.1: Work Axis and point picking fixes</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
-<content type="html">&lt;h4&gt;Fixed&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder on part of a cylinder or on a cone is the surface&amp;#x27;s own axis (it came out across the part).&lt;/li&gt;&lt;li&gt;Every Point field of the work features lights the part&amp;#x27;s marked points; the view turns while points are picked.&lt;/li&gt;&lt;li&gt;Hide / Show (Show All Origin too) no longer rebuilds the whole part: no lag on parts with embossed text.&lt;/li&gt;&lt;/ul&gt;</content></entry>
-<entry><id>https://inncad.com/#update-plus-0.10.1</id>
-<title>InnCad Plus 0.10.1: Work Axis and point picking fixes</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1"/>
-<content type="html">&lt;h4&gt;Fixed&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder on part of a cylinder or on a cone is the surface&amp;#x27;s own axis (it came out across the part).&lt;/li&gt;&lt;li&gt;Every Point field of the work features lights the part&amp;#x27;s marked points; the view turns while points are picked.&lt;/li&gt;&lt;li&gt;Hide / Show (Show All Origin too) no longer rebuilds the whole part: no lag on parts with embossed text.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/#update-incad-0.11.2</id>
+<title>InCad 0.11.2: Holes and threads in several places at once</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.2"/>
+<content type="html">&lt;h4&gt;Added&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric: click several round edges or round faces at once (Round) — a hole at the centre of each; the Face is optional.&lt;/li&gt;&lt;li&gt;Thread on several faces at once (holes or shafts): a thread on each with the same settings; afterwards each is a thread of its own.&lt;/li&gt;&lt;li&gt;Apply + opens the next dialog with the same settings (only the picks start empty), in every tool.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Fixed&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Deleting a feature that others are built on (a Chamfer on a Fillet&amp;#x27;s edges) hung, then did nothing: InCad now asks to delete those too, as one undo step; No leaves the part as it was.&lt;/li&gt;&lt;li&gt;Thread in a second hole: the click on it (shown as the first thread&amp;#x27;s preview) was dropped.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/#update-plus-0.10.2</id>
+<title>InnCad Plus 0.10.2: Holes and threads in several places at once</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.2"/>
+<content type="html">&lt;h4&gt;Added&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric: click several round edges or round faces at once (Round) — a hole at the centre of each; the Face is optional.&lt;/li&gt;&lt;li&gt;Thread on several faces at once (holes or shafts): a thread on each with the same settings; afterwards each is a thread of its own.&lt;/li&gt;&lt;li&gt;Apply + opens the next dialog with the same settings (only the picks start empty), in every tool.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Fixed&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Deleting a feature that others are built on (a Chamfer on a Fillet&amp;#x27;s edges) hung, then did nothing: InnCad now asks to delete those too, as one undo step; No leaves the part as it was.&lt;/li&gt;&lt;li&gt;Thread in a second hole: the click on it (shown as the first thread&amp;#x27;s preview) was dropped.&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>

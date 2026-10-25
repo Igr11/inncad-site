@@ -42,7 +42,7 @@
     <a class="btn primary small" href="#download"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5v11m0 0-4.5-4.5m4.5 4.5 4.5-4.5M4.5 15.5v3a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-3"/></svg><span>下载</span></a>
   </div>
 </div></header>
-<div class="newsbar"><div class="wrap"><a href="#updates"><span class="tag-new">新</span><span class="what"><b>InCad 0.11.1</b> — Work Axis 与选点修复 · <b>InnCad Plus 0.10.1</b> — Work Axis 与选点修复</span><span class="go">更新内容 →</span></a></div></div>
+<div class="newsbar"><div class="wrap"><a href="#updates"><span class="tag-new">新</span><span class="what"><b>InCad 0.11.2</b> — 一次在多处打孔和攻螺纹 · <b>InnCad Plus 0.10.2</b> — 一次在多处打孔和攻螺纹</span><span class="go">更新内容 →</span></a></div></div>
 
 <main id="top">
 <div class="hero"><div class="wrap">
@@ -216,13 +216,13 @@
     <h2>InnCad Plus 和 InCad 有什么新内容</h2>
     <p>每个程序的最新版本：新增了什么，修复了什么。更早的版本在 GitHub 上：<a href="https://github.com/Igr11/InnCadPlus-releases/releases">InnCad Plus</a>、<a href="https://github.com/Igr11/InCad/releases">InCad</a>。</p>
   </div>
-  <div class="upd-grid"><article class="box upd" id="update-incad-0.11.1">
-      <p class="upd-head"><span class="prod incad">InCad</span><b>0.11.1</b><time datetime="2026-10-24">2026 年 10 月 24 日</time></p>
-      <h3>Work Axis 与选点修复</h3><h4 class="fixed">修复</h4><ul class="ticks"><li>Work Axis ▸ Axis of a cylinder 在部分圆柱面或圆锥面上取曲面自身的轴（以前会横穿零件）。</li><li>工作特征的每个 Point 字段都会高亮零件上的标记点；选点时视图可以旋转。</li><li>Hide / Show（包括 Show All Origin）不再重建整个零件：带浮雕文字的零件不再卡顿。</li></ul>
-      <a class="more" href="https://github.com/Igr11/InCad/releases/tag/v0.11.1">GitHub 上的发布说明 →</a></article><article class="box upd" id="update-plus-0.10.1">
-      <p class="upd-head"><span class="prod plus">InnCad Plus</span><b>0.10.1</b><time datetime="2026-10-24">2026 年 10 月 24 日</time></p>
-      <h3>Work Axis 与选点修复</h3><h4 class="fixed">修复</h4><ul class="ticks"><li>Work Axis ▸ Axis of a cylinder 在部分圆柱面或圆锥面上取曲面自身的轴（以前会横穿零件）。</li><li>工作特征的每个 Point 字段都会高亮零件上的标记点；选点时视图可以旋转。</li><li>Hide / Show（包括 Show All Origin）不再重建整个零件：带浮雕文字的零件不再卡顿。</li></ul>
-      <a class="more" href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1">GitHub 上的发布说明 →</a></article></div>
+  <div class="upd-grid"><article class="box upd" id="update-incad-0.11.2">
+      <p class="upd-head"><span class="prod incad">InCad</span><b>0.11.2</b><time datetime="2026-10-24">2026 年 10 月 24 日</time></p>
+      <h3>一次在多处打孔和攻螺纹</h3><h4 class="added">新增</h4><ul class="ticks"><li>Hole ▸ Concentric：可一次点选多条圆边或多个圆面（Round），在每个的中心打孔；Face 可选。</li><li>Thread 可一次用于多个面（孔或轴）：每个面一条相同设置的螺纹，之后各自独立。</li><li>Apply + 在所有工具中以相同设置打开下一个对话框（只有所选对象为空）。</li></ul><h4 class="fixed">修复</h4><ul class="ticks"><li>删除被其他特征依赖的特征（如 Fillet 边上的 Chamfer）会卡住且无效：现在 InCad 会询问是否一并删除，作为一步撤销；选“否”则零件保持原样。</li><li>在第二个孔上加螺纹：点击它（显示为第一条螺纹的预览）时会被忽略。</li></ul>
+      <a class="more" href="https://github.com/Igr11/InCad/releases/tag/v0.11.2">GitHub 上的发布说明 →</a></article><article class="box upd" id="update-plus-0.10.2">
+      <p class="upd-head"><span class="prod plus">InnCad Plus</span><b>0.10.2</b><time datetime="2026-10-24">2026 年 10 月 24 日</time></p>
+      <h3>一次在多处打孔和攻螺纹</h3><h4 class="added">新增</h4><ul class="ticks"><li>Hole ▸ Concentric：可一次点选多条圆边或多个圆面（Round），在每个的中心打孔；Face 可选。</li><li>Thread 可一次用于多个面（孔或轴）：每个面一条相同设置的螺纹，之后各自独立。</li><li>Apply + 在所有工具中以相同设置打开下一个对话框（只有所选对象为空）。</li></ul><h4 class="fixed">修复</h4><ul class="ticks"><li>删除被其他特征依赖的特征（如 Fillet 边上的 Chamfer）会卡住且无效：现在 InnCad 会询问是否一并删除，作为一步撤销；选“否”则零件保持原样。</li><li>在第二个孔上加螺纹：点击它（显示为第一条螺纹的预览）时会被忽略。</li></ul>
+      <a class="more" href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.2">GitHub 上的发布说明 →</a></article></div>
   <p class="follow"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></svg><span>获取新版本消息：把<a href="updates.xml">更新订阅</a>（RSS / Atom）添加到任意阅读器，或在 GitHub 上为 <a href="https://github.com/Igr11/InnCadPlus-releases">InnCad Plus</a> 和 <a href="https://github.com/Igr11/InCad">InCad</a> 点击 Watch ▸ Custom ▸ Releases。</span></p>
 </div></section>
 

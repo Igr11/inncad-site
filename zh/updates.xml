@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/zh/updates.xml</id><title>InnCad Plus 与 InCad — 更新</title>
 <link href="https://inncad.com/zh/"/><link rel="self" href="https://inncad.com/zh/updates.xml"/>
 <updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
-<entry><id>https://inncad.com/zh/#update-incad-0.11.1</id>
-<title>InCad 0.11.1: Work Axis 与选点修复</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
-<content type="html">&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder 在部分圆柱面或圆锥面上取曲面自身的轴（以前会横穿零件）。&lt;/li&gt;&lt;li&gt;工作特征的每个 Point 字段都会高亮零件上的标记点；选点时视图可以旋转。&lt;/li&gt;&lt;li&gt;Hide / Show（包括 Show All Origin）不再重建整个零件：带浮雕文字的零件不再卡顿。&lt;/li&gt;&lt;/ul&gt;</content></entry>
-<entry><id>https://inncad.com/zh/#update-plus-0.10.1</id>
-<title>InnCad Plus 0.10.1: Work Axis 与选点修复</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1"/>
-<content type="html">&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder 在部分圆柱面或圆锥面上取曲面自身的轴（以前会横穿零件）。&lt;/li&gt;&lt;li&gt;工作特征的每个 Point 字段都会高亮零件上的标记点；选点时视图可以旋转。&lt;/li&gt;&lt;li&gt;Hide / Show（包括 Show All Origin）不再重建整个零件：带浮雕文字的零件不再卡顿。&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/zh/#update-incad-0.11.2</id>
+<title>InCad 0.11.2: 一次在多处打孔和攻螺纹</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.2"/>
+<content type="html">&lt;h4&gt;新增&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric：可一次点选多条圆边或多个圆面（Round），在每个的中心打孔；Face 可选。&lt;/li&gt;&lt;li&gt;Thread 可一次用于多个面（孔或轴）：每个面一条相同设置的螺纹，之后各自独立。&lt;/li&gt;&lt;li&gt;Apply + 在所有工具中以相同设置打开下一个对话框（只有所选对象为空）。&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;删除被其他特征依赖的特征（如 Fillet 边上的 Chamfer）会卡住且无效：现在 InCad 会询问是否一并删除，作为一步撤销；选“否”则零件保持原样。&lt;/li&gt;&lt;li&gt;在第二个孔上加螺纹：点击它（显示为第一条螺纹的预览）时会被忽略。&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/zh/#update-plus-0.10.2</id>
+<title>InnCad Plus 0.10.2: 一次在多处打孔和攻螺纹</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.2"/>
+<content type="html">&lt;h4&gt;新增&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric：可一次点选多条圆边或多个圆面（Round），在每个的中心打孔；Face 可选。&lt;/li&gt;&lt;li&gt;Thread 可一次用于多个面（孔或轴）：每个面一条相同设置的螺纹，之后各自独立。&lt;/li&gt;&lt;li&gt;Apply + 在所有工具中以相同设置打开下一个对话框（只有所选对象为空）。&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;修复&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;删除被其他特征依赖的特征（如 Fillet 边上的 Chamfer）会卡住且无效：现在 InnCad 会询问是否一并删除，作为一步撤销；选“否”则零件保持原样。&lt;/li&gt;&lt;li&gt;在第二个孔上加螺纹：点击它（显示为第一条螺纹的预览）时会被忽略。&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>

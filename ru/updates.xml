@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><id>https://inncad.com/ru/updates.xml</id><title>InnCad Plus и InCad — обновления</title>
 <link href="https://inncad.com/ru/"/><link rel="self" href="https://inncad.com/ru/updates.xml"/>
 <updated>2026-10-24T12:00:00Z</updated><author><name>InnCad Plus</name></author>
-<entry><id>https://inncad.com/ru/#update-incad-0.11.1</id>
-<title>InCad 0.11.1: Исправления Work Axis и выбора точек</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.1"/>
-<content type="html">&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder на части цилиндра или на конусе — собственная ось поверхности (шла поперёк детали).&lt;/li&gt;&lt;li&gt;Все поля Point рабочих элементов подсвечивают отмеченные точки детали; вид вращается, пока выбираются точки.&lt;/li&gt;&lt;li&gt;Hide / Show (и Show All Origin) больше не перестраивает всю деталь: нет задержек на деталях с текстом Emboss.&lt;/li&gt;&lt;/ul&gt;</content></entry>
-<entry><id>https://inncad.com/ru/#update-plus-0.10.1</id>
-<title>InnCad Plus 0.10.1: Исправления Work Axis и выбора точек</title>
-<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.1"/>
-<content type="html">&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Work Axis ▸ Axis of a cylinder на части цилиндра или на конусе — собственная ось поверхности (шла поперёк детали).&lt;/li&gt;&lt;li&gt;Все поля Point рабочих элементов подсвечивают отмеченные точки детали; вид вращается, пока выбираются точки.&lt;/li&gt;&lt;li&gt;Hide / Show (и Show All Origin) больше не перестраивает всю деталь: нет задержек на деталях с текстом Emboss.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/ru/#update-incad-0.11.2</id>
+<title>InCad 0.11.2: Отверстия и резьбы сразу в нескольких местах</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InCad/releases/tag/v0.11.2"/>
+<content type="html">&lt;h4&gt;Добавлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric: можно щёлкнуть несколько круглых рёбер или круглых граней сразу (Round) — отверстие в центре каждой; Face необязательна.&lt;/li&gt;&lt;li&gt;Thread сразу на нескольких гранях (отверстия или валы): резьба на каждой с одними настройками; потом каждая — отдельная резьба.&lt;/li&gt;&lt;li&gt;Apply + открывает следующий диалог с теми же настройками (пусты только выбранные объекты), во всех инструментах.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Удаление элемента, на котором что-то построено (Chamfer на рёбрах Fillet), долго висело и ничего не делало: теперь InCad спрашивает, удалить ли и их, одним шагом Undo; «Нет» оставляет деталь как была.&lt;/li&gt;&lt;li&gt;Резьба во втором отверстии: щелчок по нему (на экране это предпросмотр первой резьбы) терялся.&lt;/li&gt;&lt;/ul&gt;</content></entry>
+<entry><id>https://inncad.com/ru/#update-plus-0.10.2</id>
+<title>InnCad Plus 0.10.2: Отверстия и резьбы сразу в нескольких местах</title>
+<updated>2026-10-24T12:00:00Z</updated><link href="https://github.com/Igr11/InnCadPlus-releases/releases/tag/v0.10.2"/>
+<content type="html">&lt;h4&gt;Добавлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Hole ▸ Concentric: можно щёлкнуть несколько круглых рёбер или круглых граней сразу (Round) — отверстие в центре каждой; Face необязательна.&lt;/li&gt;&lt;li&gt;Thread сразу на нескольких гранях (отверстия или валы): резьба на каждой с одними настройками; потом каждая — отдельная резьба.&lt;/li&gt;&lt;li&gt;Apply + открывает следующий диалог с теми же настройками (пусты только выбранные объекты), во всех инструментах.&lt;/li&gt;&lt;/ul&gt;&lt;h4&gt;Исправлено&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;Удаление элемента, на котором что-то построено (Chamfer на рёбрах Fillet), долго висело и ничего не делало: теперь InnCad спрашивает, удалить ли и их, одним шагом Undo; «Нет» оставляет деталь как была.&lt;/li&gt;&lt;li&gt;Резьба во втором отверстии: щелчок по нему (на экране это предпросмотр первой резьбы) терялся.&lt;/li&gt;&lt;/ul&gt;</content></entry>
 </feed>
