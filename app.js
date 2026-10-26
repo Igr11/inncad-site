@@ -37,7 +37,8 @@
     document.querySelectorAll(".pf").forEach(function (p) { p.classList.toggle("on", p.id === id); });
   }
   tabs.forEach(function (t) { t.addEventListener("click", function () { pick(t.dataset.pf); }); });
-  pick(/Windows/i.test(navigator.userAgent) ? "pf-zip" : "pf-mac");
+  var ua = navigator.userAgent;
+  pick(/Windows/i.test(ua) ? "pf-zip" : /Linux/i.test(ua) && !/Android/i.test(ua) ? "pf-linux" : "pf-mac");
 })();
 
 // Small tab sets ([data-tabs]): the visitor's system first.
