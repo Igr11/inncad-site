@@ -176,6 +176,23 @@ figure.scheme figcaption { text-align: center; color: var(--muted); font-size: 1
   background: var(--blue); border-radius: 5px; padding: 2px 7px; white-space: nowrap; }
 .pf .note { color: var(--muted); font-size: 14px; margin-top: 12px; }
 .dlbox .links { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 14px 24px 0; font-size: 14px; }
+.fresh { display: flex; align-items: center; gap: 14px; margin: 18px 24px 0; padding: 12px 16px;
+  border: 2px solid var(--orange); border-radius: var(--radius); background: rgba(240, 138, 36, .09);
+  box-shadow: 0 0 18px rgba(240, 138, 36, .18); }
+.fresh p { margin: 0; font-size: 15px; font-weight: 600; color: var(--text); }
+.addon .fresh { margin: 18px 0 0; }
+.buddy { flex: none; width: 52px; height: 52px; }
+.buddy .gear { fill: var(--orange); transform-box: fill-box; transform-origin: center; animation: buddy-rock 4s ease-in-out infinite; }
+.buddy .hub { fill: #ffb25e; }
+.buddy .eye { fill: #0a111c; transform-box: fill-box; transform-origin: center; }
+.buddy .wink { animation: buddy-wink 5s infinite; }
+.buddy .cheek { fill: #f8587a; opacity: .55; }
+.buddy .smile { fill: none; stroke: #0a111c; stroke-width: 2.6; stroke-linecap: round; }
+.buddy .face { transform-box: fill-box; transform-origin: center; animation: buddy-bob 4s ease-in-out infinite; }
+@keyframes buddy-rock { 0%, 100% { transform: rotate(-14deg); } 50% { transform: rotate(14deg); } }
+@keyframes buddy-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-1.5px); } }
+@keyframes buddy-wink { 0%, 86%, 100% { transform: scaleY(1); } 90%, 93% { transform: scaleY(.12); } }
+@media (prefers-reduced-motion: reduce) { .buddy * { animation: none !important; } }
 
 .addon { margin-top: 18px; padding-bottom: 24px; border: 2px solid transparent; box-shadow: 0 18px 50px rgba(203, 51, 59, 0.14);
   background: linear-gradient(var(--panel), var(--bg2)) padding-box, linear-gradient(120deg, var(--fc-red), #fff 50%, var(--fc-blue)) border-box; }
@@ -406,6 +423,7 @@ dialog#lb img { max-width: 96vw; max-height: 94vh; object-fit: contain; border-r
   .steps { grid-template-columns: 1fr 1fr; }
   .oss { grid-template-columns: 1fr; }
   .boxhead, .oss, .req .foot, .tabs, .pf, .dlbox .links, .guides, .faq, .addon-body { padding-left: 16px; padding-right: 16px; }
+  .dlbox .fresh { margin-left: 16px; margin-right: 16px; }
   .addon-body { grid-template-columns: 1fr; gap: 18px; }
   .upd-grid { grid-template-columns: minmax(0, 1fr); }
   .upd { padding: 18px 16px; }
